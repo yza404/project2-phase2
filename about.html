@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-col-1of2 {
+	width: 50%;
+}
+.white-space {
+width: 100%;
+height: 5rem;
+}
+
+.half-col-flexbox {
+	background-color: #eee;
+
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	flex-wrap: wrap;
+}
+
+.half-col-flexbox::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+.half-col-flexbox .grid-col-1of2 .half-col-img {
+      width: 100%;
+      height: 50%;
+      margin: 0;
+}
+.half-col-flexbox .half-col-img img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+@media screen and (max-width: 55rem) {
+
+	.half-col-flexbox .grid-col-1of2 {
+        display: block;
+        width: 100%;
+        margin: 0 0 2rem 0rem;
+	}
+
+	.half-col-flexbox {
+		display: block;
+	}
+
+	.half-col-flexbox .box-1 {
+		order: 0;
+	}
+}
+
+.need-white-space {
+  padding: 2rem 0;
+}
+
+.block-content {
+  padding: 0 1.5rem;
+}
+
+}
+</style>
+</head>
+<body>
+
+  <div class="white-space"></div>
+
+  <section class="title-section-about">
+
+    <div class="grid-col-12of12">
+
+
+        <h1>ABOUT SNIDEL</h1>
+
+    </div>
+  </section>
+
+  <section class="half-col-flexbox">
+
+			<div class="grid-col-1of2 flex-box">
+				<figure class="half-col-img">
+						<img src="img/snidelCover2.jpg" alt="snidelCover">
+				</figure>
+			</div>
+
+			<div class="grid-col-1of2 flex-box">
+				<div class="block-content need-white-space">
+
+					<h2>ABOUT</h2>
+					<h3> snidel  is a brand created by one of Tokyo's most creative companies, MASH Style Lab Co. in 2005.</h3>
+					<p>
+            The clothing is mainly designed for women in their 20's to 30's, and is something you can wear to the office
+            <p>
+              and also outside of work.
+              </p>
+
+
+					<p>
+						 The dress is an example of one of their many adorable designs.
+					</p>
+
+
+				</div>
+			</div>
+
+		</section>
+
+    <section class="half-col-flexbox">
+
+
+
+  <div class="grid-col-1of2 flex-box box-2">
+
+    <div class="block-content need-white-space">
+      <h2>STORY</h2>
+
+
+      <p>The concept of Snidel is "Street Formal". The good part of this brand is not too sweet, and not too casual, </p>
+      <p>so that depending on what to coordinate with, you can create variety of outfit!</p>
+    </div>
+  </div>
+  <div class="grid-col-1of2 flex-box box-1">
+    <figure class="half-col-img">
+      <img src="img/snidel.jpg" alt="snidelCover">
+    </figure>
+  </div>
+</section>
+
+
+
+
+</body>
+</html>
