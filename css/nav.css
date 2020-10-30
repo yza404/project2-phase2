@@ -1,0 +1,250 @@
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+/***************** NAVIGATION ********************/
+.navBar {
+	background-color:#f5f1ea;
+	position: fixed;
+	min-width: 100%;
+	top: 0;
+	z-index: 1;
+}
+
+.nav-logo {
+	display: inline-block;
+  	padding-top: 1.5rem;
+  	padding-bottom: 1.5rem;
+  	font-size: 1.5rem;
+  	letter-spacing: 0.3rem;
+    -webkit-transition: all 0.5s ease;
+  	transition: all 0.5s ease;
+}
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 90%;
+	padding: 0 2%;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+
+.cart_icon {
+	content: url('../pic/cart-h.png');
+	width: 1.7rem;
+	vertical-align: middle;
+	margin-bottom: 0.5rem;
+}
+
+.cart_icon:hover {
+	content: url('../pic/cart.png');
+
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+
+	/*citation:http://stackoverflow.com/questions/4717117/css-image-link-change-on-hover*/
+}
+
+
+nav ul {
+	width: 80%;
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 70%;
+	list-style-type: none;
+	padding: 0;
+	justify-content: space-between;
+}
+
+nav li:last-child {
+	border-bottom: none;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+	display: block;
+
+	-webkit-transition: color .3s linear;
+	transition: color .3s linear;
+}
+
+nav a:hover {
+  background:black;
+  background-color:#c6aa9d;
+}
+
+nav li {
+	position: relative;
+	line-height: 3rem;
+	color: black;
+	/*text-align: center;*/
+	display: inline-block;
+
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+}
+
+nav input, nav label {
+	display: none;
+
+}
+
+nav label {
+	position: absolute;
+	top: 0.9rem;
+	right: 2rem;
+}
+
+nav label:hover {
+	cursor:pointer;
+}
+
+label .container {
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 0.5rem;
+}
+
+label .bar1, label .bar2, label .bar3 {
+
+    display: block;
+    width: 2rem;
+    height: 0.8rem;
+    margin: 0 0 0 0.8rem;
+    border-top: 0.1rem solid #fff;
+
+    -webkit-transition: all 0.5s ease;
+  	transition: all 0.5s ease;
+
+/*    width: 1.8rem;
+    height: 1px;
+    background-color: #fff;
+    margin: 0.6rem 0;
+    transition: 0.4s;*/
+}
+
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-0.1rem, 1rem);
+    transform: rotate(-45deg) translate(-0.1rem, 1rem);
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-0.5rem, -0.6rem);
+    transform: rotate(45deg) translate(-0.5rem, -0.6rem);
+}
+
+/*************** MEDIA QUERIES *******************/
+@media only screen and (max-width: 90rem) {
+
+    nav ul {
+		max-width: 75%;
+
+		transition: all 0.5s ease;
+		-webkit-transition: all 0.5s ease;
+  	}
+
+  	.white-space {
+		width: 100%;
+  		height: 4rem;
+	}
+}
+
+@media only screen and (max-width: 83rem) {
+
+	nav ul{
+		max-width: 85%;
+
+		transition: all 0.5s ease;
+		-webkit-transition: all 0.5s ease;
+  	}
+}
+
+@media only screen and (max-width: 69rem) {
+
+	.cart_icon {
+		width: 2rem;
+	}
+
+	.resv_icon {
+		width: 1.5rem;
+	}
+
+	nav ul {
+		transition: all 1s ease;
+		visibility: hidden;
+		height: 0;
+		width: 100%;
+		display: block;
+		margin: 0 auto;
+		opacity: 0;
+
+		transition: all 0.5s ease;
+		-webkit-transition: all 0.5s ease;
+  	}
+
+	nav li {
+		flex: none;
+		width: 100%;
+		border-bottom: solid 1px #777;
+		padding: 1.5em 0;
+		text-align: center;
+  	}
+
+	nav li:last-child {
+    	margin-bottom: 4rem;
+  	}
+
+  	nav input[type="checkbox"]:checked + ul {
+	    width: auto;
+	    transition: all 1s ease;
+	    height: 100vh;
+	    visibility: visible;
+	    opacity: 1;
+	    overflow-y: scroll;
+	    -webkit-overflow-scrolling:touch;
+  	}
+
+	nav label {
+  		display: block;
+  	}
+
+	nav input[type="checkbox"]:checked + ul li:nth-child(1) {
+		color: #fff;
+	}
+
+	.wrapper {
+    	display: block;
+  	}
+
+  	::-webkit-scrollbar {
+    	display: none;
+  	}
+}
+
+@media only screen and (max-width: 69rem) and (max-height: 40rem) {
+
+	nav li {
+		padding: 1em 0;
+  	}
+}
+
+@media only screen and (max-width: 40rem){
+
+
+}
+
+/*@media only screen and (max-width: 40rem) and (max-height: 40rem) {
+	 nav li {
+  		padding:  1rem 0;
+  	}
+}*/

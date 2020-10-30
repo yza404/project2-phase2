@@ -1,0 +1,505 @@
+[class^='block-'] {
+	/*background-color: #ccc;*/
+}
+
+/*citation: http://jonathannicol.com/blog/2011/10/18/responsive-elements-that-retain-their-aspect-ratio/*/
+
+.home-block h1 {
+	line-height: 4rem;
+	color: rgb(255, 255, 255);
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.home-block p {
+	color: rgb(255, 255, 255);
+	font-size: 1.3rem;
+	padding-bottom: 2rem;
+	text-align: center;
+}
+
+.home-block .button {
+	color: rgb(255, 255, 255);
+	border-color: rgb(255, 255, 255);
+}
+
+.title-section-home {
+	background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+      ),
+    url('../pic/bk.jpg');
+	background-position: top center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 35rem;
+	display: flex;
+    align-items: center;
+
+/*    citation: http://sixrevisions.com/css/responsive-background-image/;*/
+}
+
+.multi-col-section {
+	background-color: rgb(245, 245, 245);
+}
+
+/*listing page styling*/
+.title-section-listing {
+	background-image: url('../pic/bk.jpg');
+	background-position: center center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 25rem;
+	display: flex;
+    align-items: center;
+/*    citation: http://sixrevisions.com/css/responsive-background-image/;*/
+}
+
+.listing-page {
+	background-color: rgb(245, 245, 245);
+}
+
+.food-listing {
+	background-color: #ccc;
+	height: 16rem;
+    overflow: hidden;
+}
+
+.food-listing img {
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.food-listing::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.listing-block {
+	background-color: #ffffff;
+	/*citation: https://www.w3schools.com/css/css3_shadows.asp*/
+	width: 100%;
+    height: 29.5rem;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+/*citation:https://miketricking.github.io/dist/*/
+
+.listing-block .overlay {
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+	top: auto;
+	bottom: 0;
+	padding: 0;
+	height: auto;
+	background-color: #ffffff;
+	color: #3c4a50;
+	visibility: visible;
+}
+
+.listing-block .order-now {
+	text-decoration: none;
+	width: 100%	;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+	position: relative;
+	padding: 10px 0;
+	background-color: rgb(213, 181, 123);
+	float: left;
+	margin: 0px;
+	display: inline-block;
+}
+
+.product-name {
+	background-color: #fff;
+	margin-top: 14.8rem;
+	margin-left: 7.5%;
+	width: 85%;
+	position: absolute;
+	box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.1),
+	0 0px 0.1rem 0 rgba(0, 0, 0, 0.1);
+
+	/*citation: https://www.w3schools.com/css/css3_shadows.asp*/
+}
+
+.product-name h4 {
+	margin: 0.5rem 0;
+}
+
+.food-detail {
+	margin-top: 1rem;
+   padding: 1.5rem;
+    font-size: 0.9em;
+}
+
+.food-detail .button {
+	display: block;
+	width: 100%;
+}
+
+/* Review Form Styling */
+.review-form .grid-col-1of2 {
+	text-align: left;
+}
+
+#review-container {
+	height: 35rem;
+	overflow: scroll;
+}
+
+.review-form label {
+	text-align: left;
+}
+
+.review-form .button-center {
+	display: block;
+}
+
+.button-center {
+	text-align: center;
+	display: inline-block;
+	margin-top: 2rem;
+}
+
+input[type=submit] {
+	padding: 0.8em 5em 0.8em 5em ;
+	margin-top: 2rem;
+	background-color: rgba(255, 255, 255, 0);
+	font-size: 0.75rem;
+}
+
+.checkout-button .button-center {
+	margin-top: 1rem;
+}
+
+input[type=text] {
+	height: 3rem;
+}
+
+textarea {
+	height: 5rem;
+}
+
+input[type=text], textarea {
+	font-family: 'BrandonTextLight', Verdana, sans-serif;
+	padding-left: 0.5rem;
+	color: rgb(0, 0, 0);
+	margin-top: 0.2rem;
+	border: 0.1rem solid rgb(0, 0, 0);
+}
+
+input[type=text], textarea  {
+	width: 100%;
+}
+
+input:focus, textarea:focus {
+	outline: none;
+	border: 0.1rem solid rgb(219, 193, 124);
+}
+
+label:not(#css-toggle-menu):not(.quan_label):not(#toggle-menu) {
+	padding-top: 1rem;
+	font-family: 'BrandonTextMedium', Verdana, sans-serif;
+	display: block;
+}
+
+
+
+.quan_label {
+	font-family: 'BrandonTextMedium', Verdana, sans-serif;
+	display: block;
+}
+
+.food_quan label,
+.food_quan .food_num {
+	padding: 0;
+	   display: inline;
+    margin-right: 1rem;
+}
+
+.review-block {
+	border-bottom: solid 0.1rem #000;
+	text-align: left;
+	padding-bottom: 1rem;
+	margin-right: 2.5rem;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgb(219, 193, 124);
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: rgb(219, 193, 124);
+}
+::-ms-input-placeholder { /* IE 10+ */
+  color: rgb(219, 193, 124);
+}
+::-moz-placeholder { /* Firefox 18- */
+  color: rgb(219, 193, 124);
+}
+
+/*citation: https://css-tricks.com/crop-top/*/
+
+/* Story section on home page*/
+.half-col-flexbox {
+	background-color: #eee;
+
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	flex-wrap: wrap;
+}
+
+.half-col-flexbox::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.box-1 {
+	order: 1;
+}
+
+.half-col-img {
+    height: 35rem;
+    overflow: hidden;
+}
+
+.half-col-img img {
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.half-col-img::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/*citation: http://stackoverflow.com/questions/14142378/css-filling-a-div-with-an-image-while-staying-in-proportion
+*/
+.block-content {
+	text-align: center;
+}
+
+.block-content h3 {
+	text-align: left;
+}
+
+.block-content .button {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.block-content ul {
+	padding: 0;
+	padding-top: 1rem;
+	margin: 0rem 0rem 0rem 2rem;
+	list-style: none;
+	margin-bottom: 2rem;
+	text-align: left;
+}
+
+.reward {
+	margin-top: 1.5rem;
+}
+
+.note {
+	text-align: left;
+	font-size: 0.7rem;
+	font-style: italic;
+}
+
+.block-content p {
+	margin: 0;
+}
+
+.block-content .checkout-button .button {
+    width: 95%;
+}
+
+/* service sections on home*/
+.service-block {
+	width: 100%;
+}
+
+.service-block img{
+	width: 28%;
+}
+
+.service-block p{
+	font-size: 0.75rem;
+	text-align: left;
+}
+
+/*About*/
+.title-section-about {
+	background-image: url('../pic/bk2.jpg');
+	background-position: top center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 25rem;
+	display: flex;
+    align-items: center;
+
+/*    citation: http://sixrevisions.com/css/responsive-background-image/;*/
+}
+
+.whole-col-sec {
+	padding: 5rem;
+}
+
+
+
+/*contact section*/
+
+.contact_icon {
+	width: 6%;
+	margin-right: 2rem;
+	margin-bottom: 1rem;
+	margin: 1rem 2rem 1rem 0rem;
+	vertical-align: middle;
+}
+
+.icon_text{
+	margin-left: 4rem;
+}
+
+.block-contet li {
+	margin-bottom: 1rem;
+}
+
+.map-section iframe {
+	width: 100%;
+	height: 20rem;
+	border: none;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* cart section styling*/
+
+
+section.cart-section h1, section.cart-section p {
+  color: #fff;
+}
+
+@media screen and (max-width: 75rem) {
+	.half-col-section .right {
+		padding-left: 0rem;
+	}
+
+	.service-block img{
+		width: 15%;
+	}
+
+	.review-block {
+    	margin-right: 0;
+	}
+
+	.block-content .checkout-button .button {
+    	width: 100%;
+	}
+
+	.home-block h1 {
+		font-size: 3rem;
+	}
+
+	footer .footer_section {
+	  height: 8rem;
+	}
+}
+
+@media screen and (max-width: 40rem) {
+		/*title image*/
+	section.title-section-home {
+		background:
+    	linear-gradient(
+	      rgba(0, 0, 0, 0.3),
+	      rgba(0, 0, 0, 0.3)
+	      ),
+		url(../img/home-small.jpg);
+		background-position: top center;
+	}
+
+	section.title-section-about {
+		background: url(../img/about-small.jpg);
+		background-position: top center;
+	}
+
+	section.title-section-events {
+		background: url(../img/events-small.jpg);
+		background-position: top center;
+	}
+
+	section.title-section-menu {
+		background: url(../img/menu-small.jpg);
+		background-position: top center;
+	}
+
+	section.title-section-listing {
+		background: url(../img/orderonline-small.jpg);
+		background-position: top center;
+	}
+
+	section.title-section-contact {
+		background: url(../img/contact-small.jpg);
+		background-position: top center;
+	}
+}
+
+
+@media screen and (max-width: 35rem) {
+
+	.contact_icon {
+		width: 8%;
+	}
+
+	.service-block img{
+		width: 30%;
+	}
+
+	.block-content ul {
+		margin-left: 0;
+	}
+
+	.review-form .button, .block-content .button  {
+		display: block;
+	}
+
+	.review-form input[type=submit],
+	.button-center {
+	    width: 100%;
+	}
+
+	.button-center1 {
+		margin: 2rem 1.5rem 1rem 1.5rem;
+	}
+
+	.home-block h1 {
+		font-size: 2rem;
+	}
+
+	.home-block p {
+		font-size: 1rem;
+	}
+}
