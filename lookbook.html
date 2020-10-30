@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/grids.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/pages.css">
 <style>
 * {
   box-sizing: border-box;
@@ -46,6 +52,37 @@ height: 5rem;
 }
 </style>
 </head>
+<header>
+  <nav class="navBar">
+    <nav class="wrapper">
+
+      <div class="logo">
+        <a href="index.html" class="nav-logo">SNIDEL</a>
+      </div>
+
+          <input type="checkbox" id="css-toggle" name="css-toggle-menu">
+
+          <ul>
+               <li><a href="about.html">ABOUT</a></li>
+
+               <li><a href="product.html">PRODUCT</a></li>
+               <li><a href="lookbook.html">LOOKBOOK</a></li>
+
+               <li><a href="contact.html">CONTACT</a></li>
+
+               <li><a href="cart.html"><span class="cart_icon"></span>&#8203;</a></li>
+          </ul>
+
+          <label for="css-toggle" id="css-toggle-menu">&#8203;
+            <span class="container" onclick="myFunction(this)">
+          <span class="bar1"></span>
+            <span class="bar2"></span>
+            <span class="bar3"></span>
+        </span>
+          </label>
+        </nav>
+   </nav>
+</header>
 <body>
     <div class="white-space"></div>
 
@@ -54,7 +91,6 @@ height: 5rem;
     <div class="grid-col-12of12">
 
 
-        <h1>LOOKBOOK</h1>
 
     </div>
   </section>

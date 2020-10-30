@@ -1,0 +1,299 @@
+/*Grids file*/
+
+*, *::after, *::before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+[class^='grid-col-'] {
+	float: left;
+	text-align: center; /* center the content in this block by default */
+	width: 100%;  /* defining the default to be mobile first */
+}
+
+[class^='grid-col-']::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.grid-col-1of3 {
+	width: 33.33%;
+}
+
+.grid-col-1of4 {
+	width: 25%;
+}
+
+.grid-col-1of2 {
+	width: 50%;
+}
+
+/******** MEDIA QUERIES *********/
+
+@media screen and (min-width:75rem) {
+
+	.grid-col-1of4 .listing-block .overlay {
+		-webkit-transition: -webkit-transform 0.35s;
+		transition: transform 0.35s;
+		-webkit-transform: translate3d(0,100%,0);
+		transform: translate3d(0,100%,0);
+		visibility: hidden;
+	}
+
+	.grid-col-1of4 .listing-block .listing-responsive {
+	    display: block;
+	    position: relative;
+		-webkit-transition: -webkit-transform 0.35s;
+		transition: transform 0.35s;
+	}
+
+	.grid-col-1of4 .listing-block:hover .listing-responsive {
+	    -webkit-transform: translate3d(0,-10%,0);
+		transform: translate3d(0,-10%,0);
+	}
+
+	.listing-block .order-now {
+		-webkit-transition: -webkit-transform 0.35s;
+		transition: transform 0.35s;
+		-webkit-transform: translate3d(0,200%,0);
+		transform: translate3d(0,200%,0);
+		visibility: visible;
+	}
+
+	.grid-col-1of4 .listing-block:hover .overlay,
+	.grid-col-1of4 .listing-block:hover .order-now {
+		-webkit-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+
+		-webkit-transition: all 0.5s ease;
+		transition: all 0.5s ease;
+	}
+
+	.grid-col-1of4 .listing-block:hover .order-now {
+		-webkit-transition-delay: 0.05s;
+		transition-delay: 0.05s;
+	}
+
+	.grid-col-1of4 .listing-block:hover .overlay:hover,
+	.grid-col-1of4 .listing-block:hover .order-now:hover {
+		background-color: rgb(227, 212, 171);
+	}
+}
+
+/* Tablet */
+@media screen and (max-width: 75rem) {
+
+    .grid-col-1of4 {
+		width: 50%;
+	    display: block;
+	}
+
+	.half-col-section .grid-col-1of2,
+	.cart-content .grid-col-1of2 {
+        display: block;
+        width: 100%;
+        margin: 0 0 2rem 0rem;
+    }
+
+    .cart-content .confirm_section .grid-col-1of2 {
+        width: 50%;
+
+    }
+
+    .grid-col-1of3 {
+		width: 100%;
+
+	}
+
+    .need-white-space {
+  		padding: 2rem 3rem;
+	}
+
+	.row-1of4 {
+		padding-bottom: 0;
+	}
+
+	.service-block img{
+		width: 10%;
+	}
+
+	.single-product {
+  		margin-left: 0rem;
+  	}
+
+  	.food_quan {
+    	width: 18%;
+	}
+
+	/*menu page*/
+	.half-col-section [id^='content'] .grid-col-1of2 {
+		margin: 0;
+	}
+
+	.half-col-section [id^='content'] .dish-title {
+		width: 90%;
+	}
+
+	.half-col-section [id^='content'] .price {
+		text-align: right;
+		width: 10%;
+	}
+
+	.half-col-section [id^='content'] .left {
+		border-right: none;
+		padding-right: 0;
+	}
+
+	.half-col-section [id^='content'] .right {
+		padding-left: 0;
+	}
+
+	/*footer*/
+	.footer_section .grid-col-1of2 {
+		width: 100%;
+	}
+
+	#social-media-icons img {
+		float: none;
+	}
+
+	#copyright p {
+
+     float: none;
+     text-align: center;
+	}
+
+	.footer-source{
+		padding-top:0.5rem;
+		padding-bottom: 1rem;
+	}
+
+	#copyright .footer-source .bar-hidden,
+	.cart-content .bar-hidden {
+		display: none;
+	}
+}
+
+
+@media screen and (max-width: 55rem) {
+
+	.half-col-flexbox .grid-col-1of2 {
+        display: block;
+        width: 100%;
+        margin: 0 0 2rem 0rem;
+	}
+
+	.half-col-flexbox {
+		display: block;
+	}
+
+	.half-col-flexbox .box-1 {
+		order: 0;
+	}
+}
+
+/* Mobile */
+@media screen and (max-width: 40rem) {
+
+	.row-1of3 {
+ 	 margin: 1rem 1.5rem;
+	}
+
+    .grid-col-1of4 {
+        display: block;
+        width: 100%;
+/*        margin: 0 0 2rem 0;*/
+    }
+
+    .need-white-space {
+    	padding: 2rem 0;
+    }
+
+  	.row-1of4 {
+		padding: 0;
+		margin: 0;
+	}
+
+	.block-content {
+		padding: 0 1.5rem;
+	}
+
+	.contact-section .block-content {
+		padding: 0 0rem;
+	}
+
+	.sub-nav, .checkout-nav .sub-nav {
+	  padding: 3rem 1.5rem 1rem 1.5rem;
+	}
+
+	.menu-sub {
+		padding: 3rem 0rem 1rem 0rem;
+	}
+
+	.single-product {
+  		margin: 0 0.5rem;
+	}
+
+	.food_quan {
+    	width: 40%;
+	}
+
+	.checkout-button .grid-col-checkout-6of12 {
+		padding: 0;
+	}
+
+	.half-col-flexbox .grid-col-1of2 .half-col-img {
+		/*display: flex;
+    	justify-content: center;
+    	align-items: center;
+        display: block;*/
+        width: 100%;
+        height: 50%;
+        margin: 0;
+	}
+
+	.half-col-flexbox .half-col-img img {
+		width: 100%;
+	    height: 50%;
+	    object-fit: cover;
+	    object-position: 50% 50%;
+	}
+
+	.grid-col-1of4 .listing-block {
+		margin-bottom: 2rem;
+	}
+	/*menu page*/
+	.half-col-section {
+		padding: 2rem 1.5rem;
+	}
+
+	.half-col-section figure {
+		padding: 0;
+	}
+	.half-col-section [id^='content'] .grid-col-1of2 {
+		margin: 0;
+	}
+
+	.half-col-section [id^='content'] .dish-title {
+		width: 80%;
+	}
+
+	.half-col-section [id^='content'] .price {
+		text-align: left;
+		padding-top: 0;
+		width: 20%;
+		padding-left: 1.5rem;
+	}
+
+	.half-col-section [id^='content'] .left {
+		border-right: none;
+		padding-right: 0;
+	}
+
+	.half-col-section [id^='content'] .right {
+		padding-left: 0;
+	}
+
+}
