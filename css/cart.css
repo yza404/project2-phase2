@@ -14,7 +14,7 @@
     width: 100%;
 }
 
-.cart-content .food_quan {
+.cart-content .product_quan {
 	width: 30%;
 	margin-top: 1rem;
 }
@@ -224,7 +224,7 @@
 }
 
 .grid-col-cart-3of12 {
-	width: 27.5%;	
+	width: 27.5%;
 	padding-right: 2rem;
 }
 
@@ -273,7 +273,7 @@
 	/*payment*/
 	.grid-col-payment-4of6 {
 		width: 60%;
-		
+
 	}
 
 	.grid-col-payment-2of6 {
@@ -284,7 +284,7 @@
 
 	.grid-col-payment-1of6 {
 		width: 18%;
-		
+
 	}
 }
 
@@ -315,7 +315,7 @@
 	.cart-d-hidden {
 		visibility: visible;
 		padding-right: 1.5rem;
-		
+
 	}
 
 	.order-summary .grid-col-cart-3of12 {
@@ -341,7 +341,7 @@
 	}
 
 	.grid-col-cart-2of12 {
-		width: 25%;	
+		width: 25%;
 	}
 
 	.cart-product-text, .order-summary .cart-product-text {
@@ -354,14 +354,14 @@
 		padding-top: 5rem;
 	}
 
-	.cart-content .food_quan {
+	.cart-content .product_quan {
 		width: 40%;
 	}
 
 	.sum {
 		width: 50%;
 		text-align: left;
-		margin-top: 0;	
+		margin-top: 0;
 	}
 
 	.grid-col-cart-4of12{
@@ -421,11 +421,3 @@
 		width: 21.2%;
 	}
 }
-
-
-
-
-
-
-
-
