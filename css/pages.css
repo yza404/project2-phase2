@@ -93,6 +93,11 @@
     object-position: 50% 50%;
 }
 
+/* product image zoom in effect */
+figure a:hover img {
+ -webkit-transform: scale(1.1);
+ transform: scale(1.1);
+}
 
 .product-listing::after {
 	content: "";
