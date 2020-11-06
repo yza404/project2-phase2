@@ -161,7 +161,7 @@ img {
   padding: 10px;
 }
 
-/* Style the images inside the grid */
+/* product detail view image */
 .column img {
   opacity: 0.8;
   cursor: pointer;
@@ -242,7 +242,7 @@ footer {
   float: left;
   text-align: left;
   padding: 0.5rem 0.5rem 0 0.5rem;
-  color: #fff;
+  color: black;
 }
 
 #social-media-icons img {

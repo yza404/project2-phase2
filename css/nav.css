@@ -74,13 +74,14 @@ nav a {
 nav a:hover {
 color:#c6aa9d;
 background-color: #f5f1ea;
+
 }
 
 nav li {
 	position: relative;
 	line-height: 3rem;
 	color: black;
-	/*text-align: center;*/
+
 	display: inline-block;
 
 	transition: all 0.5s ease;
@@ -108,23 +109,7 @@ label .container {
     margin-top: 0.5rem;
 }
 
-label .bar1, label .bar2, label .bar3 {
 
-    display: block;
-    width: 2rem;
-    height: 0.8rem;
-    margin: 0 0 0 0.8rem;
-    border-top: 0.1rem solid black;
-
-    -webkit-transition: all 0.5s ease;
-  	transition: all 0.5s ease;
-
-/*    width: 1.8rem;
-    height: 1px;
-    background-color: #fff;
-    margin: 0.6rem 0;
-    transition: 0.4s;*/
-}
 
 /* Rotate first bar */
 .change .bar1 {
@@ -170,14 +155,22 @@ label .bar1, label .bar2, label .bar3 {
 }
 
 @media only screen and (max-width: 69rem) {
+  label .bar1, label .bar2, label .bar3 {
 
+      display: block;
+
+      width: 2rem;
+      height: 0.8rem;
+      margin: 0 0 0 0.8rem;
+      border-top: 0.1rem solid #c6aa9d;
+      -webkit-transition: all 0.5s ease;
+    	transition: all 0.5s ease;
+
+  }
 	.cart_icon {
 		width: 2rem;
 	}
 
-	.resv_icon {
-		width: 1.5rem;
-	}
 
 	nav ul {
 		transition: all 1s ease;
@@ -232,19 +225,20 @@ label .bar1, label .bar2, label .bar3 {
 }
 
 @media only screen and (max-width: 69rem) and (max-height: 40rem) {
+  label .bar1, label .bar2, label .bar3 {
 
+      display: block;
+
+      width: 2rem;
+      height: 0.8rem;
+      margin: 0 0 0 0.8rem;
+      border-top: 0.1rem solid #c6aa9d;
+
+      -webkit-transition: all 0.5s ease;
+    	transition: all 0.5s ease;
+
+  }
 	nav li {
 		padding: 1em 0;
   	}
 }
-
-@media only screen and (max-width: 40rem){
-
-
-}
-
-/*@media only screen and (max-width: 40rem) and (max-height: 40rem) {
-	 nav li {
-  		padding:  1rem 0;
-  	}
-}*/
