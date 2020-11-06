@@ -1,8 +1,7 @@
 [class^='block-'] {
-	/*background-color: #ccc;*/
+
 }
 
-/*citation: http://jonathannicol.com/blog/2011/10/18/responsive-elements-that-retain-their-aspect-ratio/*/
 
 .home-block h1 {
 	line-height: 4rem;
@@ -178,7 +177,7 @@
 input[type=submit] {
 	padding: 0.8em 5em 0.8em 5em ;
 	margin-top: 2rem;
-	background-color: rgba(255, 255, 255, 0);
+	background-color: #c6aa9d;
 	font-size: 0.75rem;
 }
 
@@ -208,10 +207,10 @@ input[type=text], textarea  {
 
 input:focus, textarea:focus {
 	outline: none;
-	border: 0.1rem solid rgb(219, 193, 124);
+	border: 0.1rem solid #c6aa9d;
 }
 
-label:not(#css-toggle-menu):not(.quan_label):not(#toggle-menu) {
+label:not(#css-toggle-product):not(.quan_label):not(#toggle-product) {
 	padding-top: 1rem;
 	font-family: 'BrandonTextMedium', Verdana, sans-serif;
 	display: block;
@@ -239,16 +238,16 @@ label:not(#css-toggle-menu):not(.quan_label):not(#toggle-menu) {
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: rgb(219, 193, 124);
+  color: #c6aa9d;
 }
 ::-moz-placeholder { /* Firefox 19+ */
-  color: rgb(219, 193, 124);
+  color: #c6aa9d;
 }
 ::-ms-input-placeholder { /* IE 10+ */
-  color: rgb(219, 193, 124);
+  color: #c6aa9d;
 }
 ::-moz-placeholder { /* Firefox 18- */
-  color: rgb(219, 193, 124);
+  color: #c6aa9d;
 }
 
 /*citation: https://css-tricks.com/crop-top/*/
@@ -451,8 +450,8 @@ section.cart-section h1, section.cart-section p {
 		background-position: top center;
 	}
 
-	section.title-section-menu {
-		background: url(../img/menu-small.jpg);
+	section.title-section-product {
+		background: url(../img/product-small.jpg);
 		background-position: top center;
 	}
 

@@ -1,6 +1,5 @@
 /*Cart style sheet*/
 
-/*http://bootsnipp.com/snippets/featured/shopping-cart-bs-3*/
 
 .cart-title h2 {
 	padding: 0;
@@ -25,7 +24,7 @@
 	height: auto;
 	margin: 0;
 	display: block;
-/*	padding:1rem 1rem 1rem 2rem;*/
+
 }
 
 .cart-product-info {
@@ -55,7 +54,6 @@
 }
 
 
-
 .cart-d-hidden {
 	visibility: hidden;
 	font-family: 'BrandonTextMedium', Verdana, sans-serif;
@@ -76,9 +74,7 @@
 	visibility: hidden;
 }
 
-.checkout-nav .checkout-preview {
-	color: #ccc;
-}
+
 
 /*price summary*/
 .cart-price p {
@@ -157,8 +153,8 @@
 
 [class^='grid-col-cart-'] {
 	float: left;
-	text-align: center; /* center the content in this block by default */
-	width: 100%;  /* defining the default to be mobile first */
+	text-align: center;
+	width: 100%;
 }
 
 [class^='grid-col-cart-']::after {
@@ -187,7 +183,7 @@
 	width: 16.5%;
 }
 
-/*checkout section*/
+/*checkout section- payment page*/
 .grid-col-checkout-8of12 {
 	width: 68%;
 	height: 1rem;
