@@ -5,10 +5,15 @@
 
 .home-block h1 {
 	line-height: 4rem;
-	color: rgb(255, 255, 255);
+	color: rgb(229,204,201);
 	font-size: 3rem;
 	margin-bottom: 1rem;
 }
+
+.title-section-product .home-block h1  {
+		color:#c6aa9d;
+}
+
 
 .home-block p {
 	color: rgb(255, 255, 255);
@@ -42,12 +47,17 @@
 }
 
 .multi-col-section {
-	background-color: rgb(245, 245, 245);
+	background-color: ;
 }
 
 /*listing page styling*/
+<<<<<<< HEAD
+.title-section-product {
+	background-image: url('../pic/bk-p.jpg');
+=======
 .title-section-listing {
-	background-image: url('../pic/bk.jpg');
+	background-image: url('../img/bk.jpg');
+>>>>>>> master
 	background-position: center center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -60,95 +70,49 @@
 }
 
 .listing-page {
-	background-color: rgb(245, 245, 245);
+	background-color: white;
 }
 
-.food-listing {
+.product-listing {
 	background-color: #ccc;
-	height: 16rem;
+<<<<<<< HEAD
+height: 25rem;
+  overflow: hidden;
+}
+
+
+
+=======
+	height: 25rem;
     overflow: hidden;
 }
 
-.food-listing img {
+.product-listing img {
 	width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: 50% 50%;
 }
 
-.food-listing::after {
+>>>>>>> master
+.product-listing::after {
 	content: "";
 	display: block;
 	clear: both;
 }
 
-.listing-block {
-	background-color: #ffffff;
-	/*citation: https://www.w3schools.com/css/css3_shadows.asp*/
-	width: 100%;
-    height: 29.5rem;
-    float: left;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-}
+
 
 /*citation:https://miketricking.github.io/dist/*/
 
-.listing-block .overlay {
-    width: 100%;
-    position: absolute;
-    overflow: hidden;
-    left: 0;
-	top: auto;
-	bottom: 0;
-	padding: 0;
-	height: auto;
-	background-color: #ffffff;
-	color: #3c4a50;
-	visibility: visible;
-}
 
-.listing-block .order-now {
-	text-decoration: none;
-	width: 100%	;
-	text-transform: uppercase;
-	color: #fff;
-	text-align: center;
-	position: relative;
-	padding: 10px 0;
-	background-color: rgb(213, 181, 123);
-	float: left;
-	margin: 0px;
-	display: inline-block;
-}
 
-.product-name {
-	background-color: #fff;
-	margin-top: 14.8rem;
-	margin-left: 7.5%;
-	width: 85%;
-	position: absolute;
-	box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.1),
-	0 0px 0.1rem 0 rgba(0, 0, 0, 0.1);
-
-	/*citation: https://www.w3schools.com/css/css3_shadows.asp*/
-}
-
-.product-name h4 {
-	margin: 0.5rem 0;
-}
-
-.food-detail {
-	margin-top: 1rem;
+.product-detail {
+	text-align: left;
    padding: 1.5rem;
-    font-size: 0.9em;
+	color: black;
 }
 
-.food-detail .button {
-	display: block;
-	width: 100%;
-}
 
 /* Review Form Styling */
 .review-form .grid-col-1of2 {
@@ -210,10 +174,15 @@ input:focus, textarea:focus {
 	border: 0.1rem solid #c6aa9d;
 }
 
+<<<<<<< HEAD
 label:not(#css-toggle-product):not(.quan_label):not(#toggle-product) {
+=======
+label:not(#css-toggle-list):not(.quan_label):not(#toggle-list) {
+>>>>>>> master
 	padding-top: 1rem;
 	font-family: 'BrandonTextMedium', Verdana, sans-serif;
 	display: block;
+	color:black;
 }
 
 
@@ -223,8 +192,8 @@ label:not(#css-toggle-product):not(.quan_label):not(#toggle-product) {
 	display: block;
 }
 
-.food_quan label,
-.food_quan .food_num {
+.product_quan label,
+.product_quan .product_num {
 	padding: 0;
 	   display: inline;
     margin-right: 1rem;
@@ -238,7 +207,11 @@ label:not(#css-toggle-product):not(.quan_label):not(#toggle-product) {
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+<<<<<<< HEAD
   color: #c6aa9d;
+=======
+  color: rgb(112,128,144);
+>>>>>>> master
 }
 ::-moz-placeholder { /* Firefox 19+ */
   color: #c6aa9d;
@@ -456,12 +429,12 @@ section.cart-section h1, section.cart-section p {
 	}
 
 	section.title-section-listing {
-		background: url(../img/orderonline-small.jpg);
+		background: url(../img/store3.jpg);
 		background-position: top center;
 	}
 
 	section.title-section-contact {
-		background: url(../img/contact-small.jpg);
+		background: url(../img/store.jpg);
 		background-position: top center;
 	}
 }
@@ -497,6 +470,8 @@ section.cart-section h1, section.cart-section p {
 	.home-block h1 {
 		font-size: 2rem;
 	}
+
+
 
 	.home-block p {
 		font-size: 1rem;

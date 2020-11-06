@@ -30,7 +30,7 @@ h1 {
 h2 {
   font-family:monospace;
   margin: 1.5rem 0 2.5rem 0;
-  font-size: 1.5rem;
+  font-size: 2.0rem;
   letter-spacing: 0.2rem;
   line-height: 1.8rem;
   text-align: center;
@@ -42,7 +42,7 @@ h3, h4,  {
 }
 
 h3 {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   line-height: 1.8rem;
 }
 
@@ -51,6 +51,11 @@ h4 {
   line-height: 1.6rem;
 }
 
+
+h5 {
+  font-size: 1.1rem;
+  line-height: 1.2rem;
+}
 
 
 .emphasis {
@@ -125,7 +130,7 @@ img {
   margin-left: 4rem;
 }
 
-/*food selection*/
+/*product selection*/
 .quantity {
   display: block;
   float: left;
@@ -137,14 +142,14 @@ img {
   margin-right: 1rem;
 }
 
-.food_quan {
+.product_quan {
     border: 1px solid rgb(0, 0, 0);
     width: 29%;
     padding: 0.5rem 1rem;
     margin-bottom: 1rem;
 }
 
-.food_num {
+.product_num {
     background: transparent;
     border: 0;
     border-radius: 0;
