@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>P02: Company</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/grids.css">
+		<link rel="stylesheet" href="css/nav.css">
+		<link rel="stylesheet" href="css/fonts.css">
+		<link rel="stylesheet" href="css/pages.css">
+
+
+  </head>
+
+
+  <body>
+    <!--Navigation Bar-->
+    <header>
+      <nav class="navBar">
+        <nav class="wrapper">
+
+          <div class="logo">
+            <a href="index.html" class="nav-logo">SNIDEL</a>
+          </div>
+
+              <input type="checkbox" id="css-toggle" name="css-toggle-list">
+
+              <ul>
+                  <li><a href="about.html">ABOUT</a></li>
+
+                  <li><a href="product.html">PRODUCT</a></li>
+                  <li><a href="contact.html">CONTACT</a></li>
+
+                  <li><a href="cart.html"><span class="cart_icon"></span>&#8203;</a></li>
+             </ul>
+
+              <label for="css-toggle" id="css-toggle-list">&#8203;
+                <span class="container" onclick="myFunction(this)">
+              <span class="bar1"></span>
+                <span class="bar2"></span>
+                <span class="bar3"></span>
+            </span>
+              </label>
+            </nav>
+       </nav>
+    </header>
+
+    <div class="white-space"></div>
+
+<!-- prodect details image -->
+<section class="need-white-space half-col-section">
+  <div class="grid-col-1of2">
+
+
+    <div class="container">
+      <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+      <img id="expandedImg" style="width:50%">
+      <div id="imgtext"></div>
+    </div>
+
+    <!-- The four columns -->
+    <div class="row">
+      <div class="column">
+        <img src="pic/p1-1.jpg"  style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="pic/p1-2.jpg"  style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="pic/p1-3.jpg" style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="pic/p1-4.jpg"  style="width:100%" onclick="myFunction(this);">
+      </div>
+    </div>
+
+
+<!-- javascript for image gallery -->
+    <script>
+    function myFunction(imgs) {
+      var expandImg = document.getElementById("expandedImg");
+      var imgText = document.getElementById("imgtext");
+      expandImg.src = imgs.src;
+      imgText.innerHTML = imgs.alt;
+      expandImg.parentElement.style.display = "block";
+    }
+    </script>
+
+
+
+  </div>
+
+<!-- Description -->
+<div class="grid-col-1of2">
+  <div class="single-product">
+    <h4>Belted Long Coat</h4>
+    <h5>$377.98</h5>
+        <p> <em>Size & Fit</em></p>
+						<p>* Fits true to size, take your normal size</p>
+						<p>* Designed for a slightly loose fit </p>
+						<p>* Medium weight & non-stretchy fabric</p>
+						<br>
+				<p> <em>Details & Care</em></p>
+						<p>* Main : 100% Polyester / Lining : 100% Polyester</p>
+						<p>* SKU : SWFC204008 </p>
+						<p>* Dry clean</p>
+
+
+    <div class="quantity">
+      <div class="product_quan">
+        <label class="quan_label" for="select_qty">Quantity</label>
+        <select id="select_qty" class="product_num">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+        </select>
+      </div>
+    </div>
+
+    <div>
+      <a href="cart.html" class="button">Add to Cart</a>
+    </div>
+  </div>
+
+
+
+</div>
+
+
+
+</section>
+
+
+  </body>
+</html>

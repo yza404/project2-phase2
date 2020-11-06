@@ -321,7 +321,7 @@ label:not(#css-toggle-list):not(.quan_label):not(#toggle-list) {
 
 /*About*/
 .title-section-about {
-	background-image: url('../pic/bk2.jpg');
+	background-image: url('../pic/about.png');
 	background-position: top center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
