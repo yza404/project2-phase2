@@ -2,7 +2,6 @@
 
 }
 
-
 .home-block h1 {
 	line-height: 4rem;
 	color: rgb(229,204,201);
@@ -82,7 +81,7 @@
 }
 
 .product-listing {
-	background-color: #ccc;
+	background-color: white;;
 	height: 25rem;
   overflow: hidden;
 }
