@@ -9,7 +9,7 @@
 
 /*cart title*/
 .line, .line1 {
-	border-bottom: 0.08em solid #333;
+		border-bottom: 0.08em solid #c6aa9d;
     display: inline-block;
     width: 100%;
 }
