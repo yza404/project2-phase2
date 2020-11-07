@@ -49,47 +49,69 @@
               <section id="interactive_elements">
                 <h2>Interactive_Elements</h2>
 
-                <section class="element">
+                <!-- intext-link -->
+                <section class="intext-link">
                   <h3>In-text link</h3>
-            			<p>This is the <a href="https://snidel.us/">link</a>.</p>
-                  <h4>Sample Code</h4>
-            			<code>&lt;a href="#"&gt;This is the link.&lt;/a&gt;</code>
+                  <nav class="sub-nav">
+                  <a href="index.html">In-Text-Link</a>
+                  </nav>
+
+                  <h5>Sample Code</h5>
+                  <div class="code_section">
+                    <code>
+                     &lt;nav class="sub-nav"&gt; <br>
+
+                       &lt;a href="#" &gt;In-text Link&lt;/a&gt;<br>
+
+                      &lt;/nav&gt;
+
+                    </code>
+                   </div>
                 </section>
 
+                <!-- Navigation Button -->
+                <section>
+                  <h3>Navigation Button</h3>
 
-                <section class="elemtnt">
-
-                  <h3>Navigation Link</h3>
-
-            			<nav class="nav2">
-            				<a href="#Products Listing">Products Listing</a>
-            				<a href="#Cart">Checkout</a>
-            			</nav>
+                  <nav>
+                    <ul>
+                      <li><a href="#" class="nav-but">Navigation </a></li>
+                    </ul>
+                  </nav>
 
                   <h4>Sample Code</h4>
-            			<code>&lt;nav&gt;
-            				&lt;a href="#"&gt;Products Listing&lt;/a&gt;
-            				&lt;a href="#"&gt;Checkout&lt;/a&gt;
+                  <div class="code_section">
+                    <code >
 
-            				&lt;/nav&gt;
-            			</code>
+                    &lt;nav class="navBar"&gt; <br>
+                     &lt;nav class="wrapper"&gt; <br>
+                       &lt;ul&gt; <br>
+                        &lt;li&gt; <br>
+                          &lt;a href="#" &gt;Nav Button&lt;/a&gt; <br>
+                        &lt;/li&gt; <br>
+                       &lt;/ul&gt;  <br>
+                      &lt;/nav&gt;  <br>
+                    &lt;/nav&gt;    <br>
+
+                    </code>
+                   </div>
                 </section>
 
-
-                <section class="element">
+                <!-- button -->
+                <section>
                   <h3>Submit and Reset Buttons</h3>
+                  <a class="button" href="#">SUBMIT</a>
 
-            			<h4><button name="submit" class="submitButton">Submit</button></h4>
-            			<h4><button name="reset" class="resetButton">Reset</button></h4>
-
-                  <h4>Sample Code</h4>
-                  <code>
-                    &lt;button name="submit" class="submitButton"&gt;Submit&lt;/button&gt;
-                    &lt;button name="reset" class="resetButton"&gt;Reset&lt;/button&gt;
-                  </code>
+                  <h3>Sample code:</h3>
+                  <div class="code_section">
+                    <code>
+                    &lt;a href="#" class="button"&gt;SUBMIT&lt;/a&gt;
+                    </code>
+                  </div>
                 </section>
 
-                <section class="element">
+                <!-- Text Input Field and Label -->
+                <section >
                   <h3>Text Input Field and Label</h3>
 
                   <div class="Tlabel">
@@ -98,14 +120,17 @@
                   </div>
 
                   <h4>Sample Code</h4>
+                  <div class="code_section">
             			<code>	&lt;div class="Tlabel"&gt;
             				&lt;label for="yourName"&gt;Name&lt;/label&gt;
             				&lt;input class="input" type="text" placeholder="Asiya Zhang"&gt;
             				&lt;/div&gt;
             			</code>
+                </div>
                 </section>
 
-                <section class="element">
+                <!-- Radio Button Input Field and Label -->
+                <section >
                   <h3>Radio Button Input Field and Label</h3>
 
                   <label class="Rcontainer"> visa
@@ -119,35 +144,40 @@
                   </label>
 
                   <h4>Sample Code</h4>
+                  <div class="code_section">
             			<code>
             				&lt;label class="Rcontainer"&gt;Visa card
             				&lt;input type="radio" checked="checked" name="radio"&gt;
             				&lt;span class="click"&gt;&lt;/span&gt;
             				&lt;/label&gt;
             			</code>
-
+                </div>
                 </section>
 
-
-                <section class="element">
+                <!-- Image as a Link -->
+                <section >
             			<h3>Image as a Link</h3>
 
-            			<figure class="lImage box-item-image">
-            				<a href="https://www.cantwo.com.tw/"><img src="img/logo.png" alt="this should be an image" style="width:400px;height:400px;" ></a>
-            			</figure>
+            				<a href="detail.html"><img src="pic/p1.jpg" alt="product1" >
 
                   <h4>Sample Code</h4>
+                  <div class="code_section">
             			<code>
             				&lt;figure class="lImage"&gt;
-            				&lt;a href="https://www.cantwo.com.tw/"&lt;img src="logo.png" alt="logo image"
+            				&lt;a href="https://snidel.us/"&lt;img src="pic/p1.jpg" alt="this should be an image of clothing"
                     &gt;&lt;/a&gt; &lt;/figure&gt;
             			</code>
-
+                </div>
             		</section>
             </section>
             </div>
 
+
+
+
+
           	<!-- TEXT ELEMENTS SECTION -->
+              <div id="TE" class=" need-white-space">
             <section id="text_elements">
 
           		<h2>Text Styleing</h2>
@@ -162,7 +192,7 @@
                 <p id="eg4">Heading 4 </p>
 
                 <h4>Sample Code</h4>
-
+                <div class="code_section">
                 <code>
 
                   &lt;h1&gt;Heading 1  &lt;/h1&gt;
@@ -171,7 +201,7 @@
                   &lt;h4&gt;Heading 4  &lt;/h4&gt;
 
                 </code>
-
+                <div>
           		</section>
 
           		<section class="elementP">
@@ -182,10 +212,12 @@
                   Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
 
                   <h4>Sample Code</h4>
+                  <div class="code_section">
             			<code>
             				&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. &lt;/p&gt;
             			</code>
+                </div>
           		</section>
 
 
@@ -200,6 +232,7 @@
           			</ol>
 
                 <h4>Sample Code</h4>
+                <div class="code_section">
                 <code>
                   &lt;ol&gt;
                   &lt;li&gt;tops&lt;/li&gt;
@@ -207,29 +240,31 @@
                   &lt;li&gt;bottoms&lt;/li&gt;
                   &lt;/ol&gt;
                 </code>
-
+              </div>
           		</section>
 
           	</section>
-
+          </div>
 
               <!-- BRAND ELEMENTS SECTION -->
-            <section id="brand_elements">
+                <div id="BE" class=" need-white-space">
+                  <section id="brand_elements">
 
                   <h2>Brand Elements</h2>
                   <h3> What does the company do, or offer?</h3>
                   <p>It sells clothes for young women</p>
 
                   <h3> Who is the company to potential customers? (as a person)</h3>
-                  <p>CANTWO is an urban fashion brand which designed for young women who are between 19-35 years old.</p>
+                  <p>SNIDEL is an urban fashion brand which designed for young women who are between 19-35 years old.</p>
 
                   <h3>Why might this company entice someone to purchase a product or service</h3>
                   <p> The clothing are fashionable and unique style, different material, excellent quality and can meet different consumer needs</p>
 
             </section>
+          </div>
 
               <!-- DESIGN ELEMENTS SECTION -->
-
+                <div id="DE" class=" need-white-space">
             	<section id="design_elements">
 
             		<h2>Design Elements</h2>
@@ -237,9 +272,10 @@
             		<section class="element">
 
             			<h3>Fonts</h3>
-
-                	<h4 style="font-family:verdana;"> title font / Navgation: verdana.</h4>
-                  <h4 style="font-family:"Lucida Sans Unicode";"> paragraph / describe information: Lucida Sans Unicode</h4>
+                  <h4 style="font-family: 'BrandonTextRegular';"> BrandonTextRegular</h4>
+                  <h4 style="font-family: 'LoraRegular';"> LoraRegular</h4>
+                	<h4 style="font-family:verdana;"> Verdana.</h4>
+                  <h4 style="font-family:"Lucida Sans Unicode";">Lucida Sans Unicode</h4>
 
             		</section>
 
@@ -248,43 +284,155 @@
             			<h3>Colors</h3>
 
             			<div class="colors">
-            					<h4 style="background-color:#f5f1ea;">Background Color - #f5f1ea</h4>
-
-            					<h4 style="background-color:#dcd2c8;"> Button Color original - #dcd2c8</h4>
-
-            					<h4 style="background-color:#c6aa9d;"> Button Color when clicked - #c6aa9d</h4>
-
-            					<h4 style="background-color:#ceb8a4;"> different section color - #ceb8a4</h4>
-
-            					<h4 style="background-color:#8f8681;"> footer - #8f8681</h4>
+            					<h4 style="background-color:#f8f2e9;">Background Color - #f8f2e9</h4>
+                      <h4 style="background-color:#f5f1ea;">Navgation Bar Color -#f5f1ea</h4>
+            					<h4 style="background-color:#c6aa9d;"> Button /Link clicked - #c6aa9d</h4>
+					            <h4 style="background-color:#8f8681;"> footer - #8f8681</h4>
             				</div>
             		</section>
 
-
             	</section>
-          	<!-- COMBINED ELEMENTS SECTION -->
+            </div>
 
-            <section id="combined_elements">
+
+          	<!-- COMBINED ELEMENTS SECTION -->
+            <div id="CE" class=" need-white-space">
+            <section  class="nav-section">
 
               <h2>Combined Elements</h2>
 
-              <section class="element">
-
                 <h3>Main Navigation</h3>
 
-                <nav class="nav3">
+                <nav class="navBar style-nav">
+                  <nav class="wrapper">
 
-                  <a href="#Products Listing">Products Listing</a>
-                  <a href="checkout.html">Cart</a>
-                  <a href="checkout.html">Checkout</a>
-                  <a href="about.html">About</a>
+                    <div class="logo">
+                      <a href="index.html" class="nav-logo">SNIDEL</a>
+                    </div>
 
+                    <input type="checkbox" id="css-toggle-styleguide" name="css-toggle-menu">
+
+                    <ul>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="product.html">PRODUCT</a></li>
+                        <li><a href="event.html">EVENT</a></li>
+                        <li><a href="lookbook.html">LOOKBOOK</a></li>
+                          <li><a href="contact.html">CONTACT</a></li>
+                        <li><a href="cart.html"><span class="cart_icon"></span>&#8203;</a></li>
+                   </ul>
+
+                    <label for="css-toggle-styleguide" id="toggle-list">&#8203;
+                      <span class="container" onclick="myFunction(this)">
+                          <span class="bar1"></span>
+                          <span class="bar2"></span>
+                          <span class="bar3"></span>
+                      </span>
+                    </label>
+                  </nav>
                 </nav>
 
             </section>
 
-            </section>
 
+            <!-- product-list -->
+            <section>
+              <h3>Product Listing</h3>
+              <!-- p1 -->
+              			<div class="grid-col-1of4">
+              				<figure class="row-1of4">
+              					<div class="listing-block">
+
+              						<div class="product-listing">
+              								<a href="detail.html"><img src="pic/p1.jpg" alt="product1" ></a>
+              						</div>
+
+              						</div>
+              				</figure>
+              				<div class="product-detail">
+              				<h5>Belted Long Coat</h5>
+              				<h5>$377.98 </h5>
+              				</div>
+
+              			</div>
+
+              <!-- p2 -->
+              			<div class="grid-col-1of4">
+              				<figure class="row-1of4">
+              					<div class="listing-block">
+
+              						<div class="product-listing">
+              							<img src="pic/p2.jpg" alt="product2" >
+              						</div>
+
+              						</div>
+              				</figure>
+              				<div class="product-detail">
+              				<h5>Knitted Dress</h5>
+              				<h5>$274.91  </h5>
+              				</div>
+
+              			</div>
+
+              <!-- p3 -->
+              			<div class="grid-col-1of4">
+              				<figure class="row-1of4">
+              					<div class="listing-block">
+
+              						<div class="product-listing">
+              							<img src="pic/p3.jpg" alt="product3" >
+              						</div>
+
+              						</div>
+              				</figure>
+              				<div class="product-detail">
+              				<h5>Mouton Boa Jacket</h5>
+              				<h5>$395.17 </h5>
+              				</div>
+
+              			</div>
+
+              <!-- p4 -->
+              			<div class="grid-col-1of4">
+              				<figure class="row-1of4">
+              					<div class="listing-block">
+
+              						<div class="product-listing">
+              							<img src="pic/p4.jpg" alt="product4" >
+              						</div>
+
+              						</div>
+              				</figure>
+              				<div class="product-detail">
+              				<h5>Knitted Cardigan</h5>
+              				<h5>$240.52 </h5>
+              				</div>
+
+              			</div>
+            </section>
+          </div>
 
         </body>
+
+        <footer>
+          <div class="footer_section">
+            <div id="social-media-icons" class="grid-col-1of2">
+              <a href="https://www.facebook.com/"><img src="pic/fb.png" alt="facebook icon"></a>
+              <a href="https://www.instagram.com/"><img src="pic/inst.png" alt="instgram icon"></a>
+              <a href="https://twitter.com/"><img src="pic/twitter.png" alt="twitter icon"></a>
+            </div>
+
+            <div id="copyright" class="grid-col-1of2">
+              <p>All content © Asiya & Corina 2020</p>
+
+              <div class="footer-source">
+
+                <p><a href="style.html">Style Guide</a></p>
+                <p>|</p>
+                <p><a href="citation.html">Citations</a></p>
+                <p>|</p>
+                  <p><a href="https://github.com/yza404/project2-phase2">GitHub</a></p>
+              </div>
+            </div>
+          </div>
+        </footer>
         </html>

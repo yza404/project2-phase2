@@ -1,5 +1,77 @@
 
-/*  */
+/* styleguide  */
+body{
+  background-color: white;
+}
 #IE, #TE, #BE, #CE, #DE section {
   border: none;
+}
+
+#eg1{
+	font-size:35px;
+
+}
+#eg2{
+	font-size:30px;
+}
+
+#eg3{
+	font-size:25px;
+
+}
+#eg4{
+	font-size:20px;
+}
+
+
+
+.need-white-space {
+  padding: 3rem 6rem 0 6rem;
+}
+
+section {
+  padding: 3rem 0rem;
+  border-bottom: 0.08em solid #333;
+  display: inline-block;
+  width: 100%;
+}
+
+
+
+.nav-but {
+  background-color: #f5f1ea;
+  width: 100%;
+  padding: 0.5rem 3rem;
+}
+
+.code_section {
+  background-color: #eee;
+  padding: 2rem;
+}
+
+.style-nav {
+  z-index: -1;
+}
+
+.intext-link .sub-nav {
+  text-align: left;
+  padding: 0;
+}
+
+.nav-section .navBar {
+  position: relative;
+}
+
+
+@media screen and (max-width: 69rem) {
+   .nav-section nav ul {
+    display: none;
+  }
+}
+@media screen and (max-width: 35rem) {
+
+  .need-white-space {
+    padding: 3rem 1.5rem 1.5rem;
+  }
+
 }
