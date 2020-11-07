@@ -41,8 +41,6 @@
 	height: 35rem;
 	display: flex;
     align-items: center;
-
-/*    citation: http://sixrevisions.com/css/responsive-background-image/;*/
 }
 
 .multi-col-section {
@@ -72,8 +70,7 @@
 	width: 100%;
 	height: 25rem;
 	display: flex;
-    align-items: center;
-/*    citation: http://sixrevisions.com/css/responsive-background-image/;*/
+  align-items: center;
 }
 
 .listing-page {
@@ -110,9 +107,6 @@ figure a:hover img {
 .events-listing{
 	  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
-/*citation:https://miketricking.github.io/dist/*/
-
 
 
 .product-detail {
@@ -173,14 +167,14 @@ input:focus, textarea:focus {
 
 label:not(#css-toggle-product):not(.quan_label):not(#toggle-product) {
 	padding-top: 1rem;
-	font-family: 'BrandonTextMedium', Verdana, sans-serif;
+	font-family: Verdana, sans-serif;
 	display: block;
 }
 
 
 
 .quan_label {
-	font-family: 'BrandonTextMedium', Verdana, sans-serif;
+	font-family:Verdana, sans-serif;
 	display: block;
 }
 
@@ -213,7 +207,6 @@ label:not(#css-toggle-product):not(.quan_label):not(#toggle-product) {
   color: #c6aa9d;
 }
 
-/*citation: https://css-tricks.com/crop-top/*/
 
 /* Story section on home page*/
 .half-col-flexbox {
@@ -253,8 +246,7 @@ label:not(#css-toggle-product):not(.quan_label):not(#toggle-product) {
 	clear: both;
 }
 
-/*citation: http://stackoverflow.com/questions/14142378/css-filling-a-div-with-an-image-while-staying-in-proportion
-*/
+
 .block-content {
 	text-align: center;
 }
@@ -295,19 +287,6 @@ label:not(#css-toggle-product):not(.quan_label):not(#toggle-product) {
     width: 95%;
 }
 
-/* service sections on home*/
-.service-block {
-	width: 100%;
-}
-
-.service-block img{
-	width: 28%;
-}
-
-.service-block p{
-	font-size: 0.75rem;
-	text-align: left;
-}
 
 /*About*/
 .title-section-about {
@@ -321,7 +300,6 @@ label:not(#css-toggle-product):not(.quan_label):not(#toggle-product) {
 	display: flex;
     align-items: center;
 
-/*    citation: http://sixrevisions.com/css/responsive-background-image/;*/
 }
 
 .whole-col-sec {
@@ -359,7 +337,6 @@ label:not(#css-toggle-product):not(.quan_label):not(#toggle-product) {
 }
 
 /* cart section styling*/
-
 
 section.cart-section h1, section.cart-section p {
   color: #fff;
@@ -457,7 +434,6 @@ section.cart-section h1, section.cart-section p {
 	.home-block h1 {
 		font-size: 2rem;
 	}
-
 
 
 	.home-block p {

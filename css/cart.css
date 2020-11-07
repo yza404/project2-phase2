@@ -1,5 +1,3 @@
-/*Cart style sheet*/
-
 
 .cart-title h2 {
 	padding: 0;
@@ -56,7 +54,7 @@
 
 .cart-d-hidden {
 	visibility: hidden;
-	font-family: 'BrandonTextMedium', Verdana, sans-serif;
+	font-family: Verdana, sans-serif;
 	padding-right: 1rem;
 }
 
@@ -66,7 +64,7 @@
 
 .order-summary .cart-d-hidden {
 	visibility: visible;
-	font-family: 'BrandonTextMedium', Verdana, sans-serif;
+	font-family:Verdana, sans-serif;
 	padding-right: 1rem;
 }
 

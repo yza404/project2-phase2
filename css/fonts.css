@@ -3,8 +3,8 @@
 	font-weight: normal;
 	font-style: normal;
 	src: url('../fonts/brandontext-regular-webfont.eot');
-	src: url('../fonts/brandontext-regular-webfont.eot?#iefix') format('embedded-opentype'), 
-		 url('../fonts/brandontext-regular-webfont.woff2') format('woff2'), 
+	src: url('../fonts/brandontext-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/brandontext-regular-webfont.woff2') format('woff2'),
 		 url('../fonts/brandontext-regular-webfont.woff') format('woff'),
 		 url('../fonts/brandontext-regular-webfont.ttf') format('truetype');
 }
@@ -14,21 +14,10 @@
 	font-weight: normal;
 	font-style: normal;
 	src: url('../fonts/brandontext-light-webfont.eot');
-	src: url('../fonts/brandontext-light-webfont.eot?#iefix') format('embedded-opentype'), 
-		 url('../fonts/brandontext-light-webfont.woff2') format('woff2'), 
+	src: url('../fonts/brandontext-light-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/brandontext-light-webfont.woff2') format('woff2'),
 		 url('../fonts/brandontext-light-webfont.woff') format('woff'),
 		 url('../fonts/brandontext-light-webfont.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'BrandonTextMedium';
-	font-weight: normal;
-	font-style: normal;
-	src: url('../fonts/brandontext-medium-webfont.eot');
-	src: url('../fonts/brandontext-medium-webfont.eot?#iefix') format('embedded-opentype'), 
-		 url('../fonts/brandontext-medium-webfont.woff2') format('woff2'), 
-		 url('../fonts/brandontext-medium-webfont.woff') format('woff'),
-		 url('../fonts/brandontext-medium-webfont.ttf') format('truetype');
 }
 
 @font-face {
@@ -36,8 +25,8 @@
 	font-weight: normal;
 	font-style: normal;
 	src: url('../fonts/lora-regular-webfont.eot');
-	src: url('../fonts/lora-regular-webfont.eot?#iefix') format('embedded-opentype'), 
-		 url('../fonts/lora-regular-webfont.woff2') format('woff2'), 
+	src: url('../fonts/lora-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/lora-regular-webfont.woff2') format('woff2'),
 		 url('../fonts/lora-regular-webfont.woff') format('woff'),
 		 url('../fonts/lora-regular-webfont.ttf') format('truetype');
 }

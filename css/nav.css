@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: Verdana, sans-serif;
 }
 
 /***************** NAVIGATION ********************/
@@ -32,19 +32,18 @@ body {
 }
 
 .cart_icon {
-	content: url('../pic/cart-h.png');
+	content: url('../pic/cart-b.png');
 	width: 1.7rem;
 	vertical-align: middle;
 	margin-bottom: 0.5rem;
 }
 
 .cart_icon:hover {
-	content: url('../pic/cart.png');
+	content: url('../pic/cart-h.png');
 
 	transition: all 0.5s ease;
 	-webkit-transition: all 0.5s ease;
 
-	/*citation:http://stackoverflow.com/questions/4717117/css-image-link-change-on-hover*/
 }
 
 
